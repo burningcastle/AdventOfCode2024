@@ -44,6 +44,6 @@ def put_in_order(lst):
 
 corrected_lines = list(map(put_in_order, incorrect_lines))
 middle_pages = [int(c[len(c) // 2]) for c in corrected_lines]
-print('part 2:', sum(middle_pages))  # 4713
+print('part 2:', sum(middle_pages))  # 4713 in 1 second
 end = time.time()
 print(round(end - start, 2), 'seconds')

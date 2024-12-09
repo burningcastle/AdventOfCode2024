@@ -1,0 +1,4 @@
+.idea/
+*.iml
+*.txt
+!*example.txt
